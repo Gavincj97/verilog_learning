@@ -1,0 +1,2397 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jun 04 18:42:48 2018
+# Process ID: 61512
+# Current directory: E:/demo/others/verilog/cpu54_single
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent47472 E:\demo\others\verilog\cpu54_single\cpu54_single.xpr
+# Log file: E:/demo/others/verilog/cpu54_single/vivado.log
+# Journal file: E:/demo/others/verilog/cpu54_single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/demo/others/verilog/cpu54_single/cpu54_single.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 764.910 ; gain = 103.723
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=4)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux4_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 04 18:44:54 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 800.730 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 800.730 ; gain = 0.000
+run all
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=4)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux4_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 800.730 ; gain = 0.000
+run all
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=4)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux4_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 800.730 ; gain = 0.000
+run all
+run all
+WARNING: File/Multi-channel descriptor (2) passed to $fclose in file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v at line 78 is not valid.
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=4)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux4_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 800.730 ; gain = 0.000
+run all
+run all
+WARNING: File/Multi-channel descriptor (2) passed to $fclose in file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v at line 78 is not valid.
+run all
+WARNING: File/Multi-channel descriptor (2) passed to $fclose in file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v at line 78 is not valid.
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=4)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux4_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 800.730 ; gain = 0.000
+run all
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=4)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux4_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 815.844 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 04 19:04:58 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 844.207 ; gain = 0.000
+run all
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 844.207 ; gain = 0.000
+run all
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1950 ns
+step
+Stopped at time : 2 us : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 36
+step
+Stopped at time : 2 us : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 37
+step
+Stopped at time : 2 us : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 77
+step
+Stopped at time : 2 us : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 35
+step
+Stopped at time : 2 us : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" Line 23
+step
+Stopped at time : 2 us : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" Line 27
+step
+Stopped at time : 2 us : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" Line 22
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 36
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 37
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 38
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 39
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 40
+add_bp {E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v} 74
+run all
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 74
+remove_bps -file {E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v} -line 74
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 77
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 35
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 15
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 16
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 12
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" Line 28
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" Line 33
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" Line 34
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" Line 40
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" Line 27
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" Line 28
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" Line 33
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" Line 34
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" Line 40
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" Line 27
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 15
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 16
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 12
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 15
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 12
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 15
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 12
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 15
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 12
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 15
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 12
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" Line 16
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" Line 20
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" Line 15
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" Line 28
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" Line 27
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" Line 298
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" Line 302
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" Line 297
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" Line 283
+step
+Stopped at time : 2050 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" Line 284
+step
+Stopped at time : 2100 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 36
+step
+Stopped at time : 2100 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 37
+step
+Stopped at time : 2100 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 77
+step
+Stopped at time : 2100 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 35
+step
+Stopped at time : 2100 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" Line 23
+step
+Stopped at time : 2100 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" Line 27
+step
+Stopped at time : 2100 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" Line 22
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 36
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 37
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 38
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 39
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 40
+add_bp {E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v} 74
+run all
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 74
+remove_bps -file {E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v} -line 74
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 77
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 35
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 15
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 16
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 12
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" Line 28
+add_wave {{/test/uut/sccpu/DIV_inst/ready}} 
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 886.891 ; gain = 0.000
+add_wave {{/test/uut/sccpu/cpu54_simple_control_inst/M_PC_E1}} 
+add_wave {{/test/uut/sccpu/cpu54_simple_control_inst/M_PC_E0}} 
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 918.023 ; gain = 0.000
+run all
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1950 ns
+run 50 ns
+run 50 ns
+run 50 ns
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 36
+add_bp {E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v} 74
+run all
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 74
+remove_bps -file {E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v} -line 74
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 77
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" Line 35
+step
+Stopped at time : 2150 ns : File "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" Line 13
+add_wave {{/test/uut/sccpu/M_PC/oZ}} 
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 918.023 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1950 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+add_wave {{/test/uut/sccpu/M_PC/iC4}} 
+add_wave {{/test/uut/sccpu/M_PC/iS2}} 
+add_wave {{/test/uut/sccpu/M_PC/iS1}} 
+add_wave {{/test/uut/sccpu/M_PC/iS0}} 
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 918.023 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1950 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v:1]
+[Mon Jun 04 20:10:59 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+set_property top sccomp_dataflow [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v:1]
+[Mon Jun 04 20:11:51 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v:1]
+[Mon Jun 04 20:19:11 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+reset_run synth_1 -noclean_dir 
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v:1]
+[Mon Jun 04 20:21:42 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 04 20:37:42 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 918.023 ; gain = 0.000
+run all
+add_wave {{/test/uut/sccpu/Status_inst/Q}} 
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 918.023 ; gain = 0.000
+run all
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+add_wave {{/test/uut/sccpu/cpu54_simple_control_inst/wsta}} 
+add_wave {{/test/uut/sccpu/cpu54_simple_control_inst/exc}} 
+add_wave {{/test/uut/sccpu/cpu54_simple_control_inst/mtc0}} 
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 918.023 ; gain = 0.000
+run all
+add_wave {{/test/uut/sccpu/Cause_inst/Q}} 
+add_wave {{/test/uut/sccpu/Epc_inst/Q}} 
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 918.023 ; gain = 0.000
+run 1950 ns
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 918.023 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 918.023 ; gain = 0.000
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 918.023 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name dist_mem_gen_0
+set_property -dict [list CONFIG.depth {1600} CONFIG.data_width {32} CONFIG.coefficient_file {C:/Users/GavinCJ/Desktop/mips_54_mars_simulate_student_ForWeb.coe}] [get_ips dist_mem_gen_0]
+generate_target {instantiation_template} [get_files e:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'dist_mem_gen_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  e:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'dist_mem_gen_0'...
+export_ip_user_files -of_objects [get_files e:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+launch_run -jobs 2 dist_mem_gen_0_synth_1
+[Mon Jun 04 21:04:25 2018] Launched dist_mem_gen_0_synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/dist_mem_gen_0_synth_1/runme.log
+export_simulation -of_objects [get_files e:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files/sim_scripts -ip_user_files_dir E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files -ipstatic_source_dir E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files/ipstatic -force -quiet
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/test_behav.wdb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/dist_mem_gen_0.mif'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 04 21:08:16 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 944.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 944.637 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 944.637 ; gain = 0.000
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 944.637 ; gain = 0.000
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/dist_mem_gen_0.mif'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 944.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 944.637 ; gain = 0.000
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 944.637 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/dist_mem_gen_0.mif'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 944.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 944.637 ; gain = 0.000
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 944.637 ; gain = 0.000
+run all
+run all
+WARNING: File/Multi-channel descriptor (2) passed to $fclose in file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v at line 78 is not valid.
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/dist_mem_gen_0.mif'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 944.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 944.637 ; gain = 0.000
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 944.637 ; gain = 0.000
+run all
+relaunch_sim
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/dist_mem_gen_0.mif'
+INFO: [USF-XSim-25] Exported 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/infile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/others/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/Desktop/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32_8_1
+INFO: [VRFC 10-311] analyzing module mux32_6_1
+INFO: [VRFC 10-311] analyzing module mux32_5_1
+INFO: [VRFC 10-311] analyzing module mux32_4_1
+INFO: [VRFC 10-311] analyzing module mux32_3_1
+INFO: [VRFC 10-311] analyzing module mux6_3_1
+INFO: [VRFC 10-311] analyzing module mux5_3_1
+INFO: [VRFC 10-311] analyzing module mux4_3_1
+INFO: [VRFC 10-311] analyzing module mux1_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/demo/others/verilog/cpu54_single/cpu54_single.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 73eafce5d0d3487aa5dfc5959f0e3d7e --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.extend(A=5)
+Compiling module xil_defaultlib.extend(A=18)
+Compiling module xil_defaultlib.extend(A=6)
+Compiling module xil_defaultlib.dff32(Init=32'b01000000000000000...
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.DIVU
+Compiling module xil_defaultlib.mux32_6_1
+Compiling module xil_defaultlib.mux1_3_1
+Compiling module xil_defaultlib.mux5_3_1
+Compiling module xil_defaultlib.mux32_8_1
+Compiling module xil_defaultlib.mux32_5_1
+Compiling module xil_defaultlib.extend(A=8)
+Compiling module xil_defaultlib.mux32_3_1
+Compiling module xil_defaultlib.mux6_3_1
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.mux32_4_1
+Compiling module xil_defaultlib.sccpu_control
+Compiling module xil_defaultlib.cpu
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 944.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 944.637 ; gain = 0.000
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 944.637 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 944.637 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 04 21:22:31 2018...

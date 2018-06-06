@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jun 04 17:40:33 2018
+# Process ID: 50804
+# Current directory: E:/demo/others/verilog/cpu54_single
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2096 E:\demo\others\verilog\cpu54_single\cpu54_single.xpr
+# Log file: E:/demo/others/verilog/cpu54_single/vivado.log
+# Journal file: E:/demo/others/verilog/cpu54_single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/demo/others/verilog/cpu54_single/cpu54_single.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test.tcl
+run all
+step
+restart
+close_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source test.tcl
+relaunch_sim
+run all
+relaunch_sim
+run all
+restart
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+close_sim

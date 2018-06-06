@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Jun 03 21:29:49 2018
+# Process ID: 54592
+# Current directory: E:/demo/others/verilog/cpu54_single
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent54824 E:\demo\others\verilog\cpu54_single\cpu54_single.xpr
+# Log file: E:/demo/others/verilog/cpu54_single/vivado.log
+# Journal file: E:/demo/others/verilog/cpu54_single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/demo/others/verilog/cpu54_single/cpu54_single.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 776.957 ; gain = 127.645
+update_compile_order -fileset sources_1
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/dff32.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/dff32.v
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu31_othermodules.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu31_othermodules.v
+launch_runs synth_1 -jobs 2
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mux32_3_1' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 3 of file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/mux.v
+	Duplicate found at line 93 of file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/mux.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mux32_2_1' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 20 of file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/mux.v
+	Duplicate found at line 110 of file E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/mux.v
+[Sun Jun 03 21:31:59 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/mux.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/mux.v
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/mux.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/mux.v
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/clk_div.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/clk_div.v
+import_files -norecurse C:/Users/GavinCJ/Desktop/mux.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v:1]
+[Sun Jun 03 21:47:31 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v:1]
+[Sun Jun 03 21:50:03 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/alu.v:1]
+[Sun Jun 03 22:04:26 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1157.145 ; gain = 293.410
+import_files -norecurse E:/demo/others/verilog/cpu31_test/cpu31_test.sim/sim_1/behav/infile.dat
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v:1]
+[Sun Jun 03 22:32:35 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+reset_run synth_1
+close_design
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/sccpu_control.v:1]
+[Sun Jun 03 22:32:55 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v" into library work [E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu.v:1]
+[Sun Jun 03 22:42:02 2018] Launched synth_1...
+Run output will be captured here: E:/demo/others/verilog/cpu54_single/cpu54_single.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 03 22:45:51 2018...

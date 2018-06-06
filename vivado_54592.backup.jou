@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Jun 03 21:29:49 2018
+# Process ID: 54592
+# Current directory: E:/demo/others/verilog/cpu54_single
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent54824 E:\demo\others\verilog\cpu54_single\cpu54_single.xpr
+# Log file: E:/demo/others/verilog/cpu54_single/vivado.log
+# Journal file: E:/demo/others/verilog/cpu54_single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/demo/others/verilog/cpu54_single/cpu54_single.xpr
+update_compile_order -fileset sources_1
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/dff32.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/dff32.v
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu31_othermodules.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/cpu31_othermodules.v
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/mux.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cp0/mux.v
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/mux.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/new/mux.v
+remove_files E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/clk_div.v
+file delete -force E:/demo/others/verilog/cpu54_single/cpu54_single.srcs/sources_1/imports/cpu31_test.srcs/sources_1/imports/Desktop/clk_div.v
+import_files -norecurse C:/Users/GavinCJ/Desktop/mux.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+import_files -norecurse E:/demo/others/verilog/cpu31_test/cpu31_test.sim/sim_1/behav/infile.dat
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+close_design
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
