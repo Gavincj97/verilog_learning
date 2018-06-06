@@ -10,8 +10,7 @@ module regfile(
     input [31:0] wdata,     
     output [31:0] rdata1, 
     output [31:0] rdata2 
-    );
-	
+    );	
 	reg [31:0] array_reg [31:0]; //32*32-bit regs
 	integer i;
 	
